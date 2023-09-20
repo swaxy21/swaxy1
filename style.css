@@ -1,0 +1,14 @@
+.Header{
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    
+}
+
+body{
+    background-image: url("serbia.jpg");
+}
+
+h2{
+    color: white;
+}
