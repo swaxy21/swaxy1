@@ -2,7 +2,8 @@
     display: flex;
     justify-content: left;
     background-color: white;
-    margin-top: 0px;
+    margin: 0px;
+    
 }
 
 body{
@@ -13,6 +14,9 @@ h2{
     color: black;
     display: flex;
     justify-content: center;
-    text-decoration-color: blue;
+    align-items: center;
+    margin: 35px;
+
 
 }
+
