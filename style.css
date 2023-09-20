@@ -2,14 +2,17 @@
     display: flex;
     justify-content: left;
     background-color: white;
-    
+    margin-top: 0px;
 }
 
 body{
-    background-image: url("serbia.jpg");
+    background-image: url("Hintergrund.jpg");
 }
 
 h2{
-    color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-decoration-color: blue;
 
 }
