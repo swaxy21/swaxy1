@@ -1,8 +1,9 @@
-.Header{
+Header{
     display: flex;
     justify-content: left;
     background-color: white;
-    margin: 0px;
+    height: 50px;
+    margin-bottom: 0px;
     
 }
 
@@ -18,5 +19,10 @@ h2{
     margin: 35px;
 
 
+}
+.Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
