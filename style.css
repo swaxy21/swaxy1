@@ -13,7 +13,7 @@ Header{
 
 body{
     background-image: url("Hintergrund.jpg");
-    margin: 0;
+    
 }
 
 
@@ -26,9 +26,5 @@ h2{
 
 
 }
-.Text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
