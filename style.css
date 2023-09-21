@@ -3,13 +3,19 @@ Header{
     justify-content: left;
     background-color: white;
     height: 50px;
-    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+    
     
 }
 
 body{
     background-image: url("Hintergrund.jpg");
+    margin: 0;
 }
+
 
 h2{
     color: black;
