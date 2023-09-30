@@ -27,9 +27,12 @@ body{
 }
 
 .Main h1{
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
+    
 }
+
+
 
 .Main .Daten {
     position: relative;
@@ -112,3 +115,20 @@ body{
 .Link p a:hover{
     text-decoration: underline;
 }
+
+.Login-Register {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .Login-Register{
+    background-color: transparent;
+    border: 2px solid grey;
+  }
