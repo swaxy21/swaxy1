@@ -100,19 +100,19 @@ body{
     font-weight: 600;
 }
 
-.Main .Link{
+.Main #Link{
     font-size: 14.5px;
     text-align: center;
     margin-top: 20px;
 }
 
-.Link p a{
+#Link p a{
     color: white;
     text-decoration: none;
     font-weight: 600;
 }
 
-.Link p a:hover{
+#Link p a:hover{
     text-decoration: underline;
 }
 
