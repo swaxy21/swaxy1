@@ -132,3 +132,12 @@ body{
     background-color: transparent;
     border: 2px solid grey;
   }
+
+  button{
+    text-decoration: none ;
+    background-color: transparent;
+    font-size: 17px;
+    border: none;
+    color: white;
+    
+  }
