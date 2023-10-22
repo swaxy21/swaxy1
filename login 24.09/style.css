@@ -12,11 +12,12 @@ body{
     background: url(hintergrund.png) no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 
 .Main{
-    width: 420px;
+    width: 400px;
     background: transparent;
     border: 2px solid grey;
     backdrop-filter: blur(20px);
