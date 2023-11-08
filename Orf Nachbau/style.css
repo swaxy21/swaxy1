@@ -1,0 +1,123 @@
+*{
+
+}
+
+.Head{
+    height: 25px;
+    background-color: rgba(27, 74, 162, 0.647);
+    display: flex;
+    align-items: center;
+    
+}
+
+.Head a{
+    padding: 19px;
+    text-decoration: none;
+    color: white;
+    padding-top: 2%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    margin-left: 7%;
+    margin-right: 45%;
+    background-color: rgba(32, 85, 182, 0.647);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    
+    
+}
+
+body .Main1{
+    padding-top: 0px;
+    padding-bottom: 25px;
+    background-color: rgba(32, 85, 182, 0.266);
+    
+}
+
+footer{
+    padding-top: 0px;
+    background-color: rgba(7, 25, 58, 0.647);
+    height: 50px;
+    
+
+    
+    
+}
+
+footer a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 25px;
+    
+    
+}
+
+footer image{
+ width: 5px;
+ height: 5px; 
+}
+ 
+.Main1 li{
+    padding-left: 25%;
+    padding-right: 25%;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.Titel1{
+    color: black;
+    font-size: 20px;   
+}
+
+.Article1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Article2{
+    color: white;
+    display: flex;
+   justify-content: right;
+}
+
+.Video1{
+   background-color: rgba(32, 85, 182, 0.266);
+    
+}
+    
+    
+.Titel2{
+    color: black;
+    font-size: 20px;  
+}
+
+.Titel2 li{
+    background-color:  rgba(27, 74, 162, 0.647) ;
+    
+}
+
+
+.item1{grid-area: Israeli; }
+.item2{grid-area: Flugzeug; }
+.item3{grid-area: Mann; }
+.item4{grid-area: Katari; }
+.item5{grid-area: Verstappen; }
+.item6{grid-area: ORF; }
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'Israeli Flugzeug Flugzeug  Mann Katari '
+    'Israeli Verstappen ORF ORF Katari';
+    margin-left: 7%;
+    margin-right: 45%;
+}
