@@ -34,10 +34,27 @@ body{
 }
 
 body .Main1{
-    padding-top: 0px;
+    padding-top: 15px;
     padding-bottom: 25px;
     background-color: rgba(32, 85, 182, 0.266);
+    margin-top: 0px;
     
+}
+
+body .grid-container{
+    margin-bottom: 0%;
+
+}
+
+body .Navbar1{
+    height: 50px;
+    color: yellow;
+    margin-bottom: 0px;
+}
+
+
+.Video1{
+    margin-bottom: 15px ;
 }
 
 footer{
@@ -114,10 +131,14 @@ footer image{
 
 
 .grid-container{
+    
     display: grid;
     grid-template-areas: 
-    'Israeli Flugzeug Flugzeug  Mann Katari '
+    'Israeli Flugzeug Flugzeug Mann Katari '
     'Israeli Verstappen ORF ORF Katari';
-    margin-left: 7%;
-    margin-right: 45%;
+    background-color:green;
+    margin-top: 50px;
+    margin-bottom: 0px;
+
 }
+
