@@ -42,14 +42,21 @@ body .Main1{
 }
 
 body .grid-container{
+    margin-top: 0px;
     margin-bottom: 0%;
+
 
 }
 
 body .Navbar1{
-    height: 50px;
-    color: yellow;
+    height: 25px;
+    background-color:rgba(27, 74, 162, 0.647);
+    margin-top: 25px;
     margin-bottom: 0px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 
@@ -100,13 +107,19 @@ footer image{
 }
 
 .Article2{
-    color: white;
-    display: flex;
-   justify-content: right;
-}
+    color: white; }
+
+
+.Article1{grid-area: Wort1; }
+.Article2{grid-area: Wort2; }
 
 .Video1{
-   background-color: rgba(32, 85, 182, 0.266);
+    background-color: rgba(32, 85, 182, 0.266);
+  display: grid;
+  grid-template-areas: 
+  "Wort1 Wort2"
+  "Wort1 Wort2";
+
     
 }
     
@@ -131,14 +144,16 @@ footer image{
 
 
 .grid-container{
-    
+    /* Keine Lösung der ORF tisch will nicht nach rechts und Verstappen nach unten  */
     display: grid;
+    grid-template-rows:  150px;
+    grid-template-columns: 168px 344px 168px 168px 250px;
     grid-template-areas: 
-    'Israeli Flugzeug Flugzeug Mann Katari '
-    'Israeli Verstappen ORF ORF Katari';
-    background-color:green;
+    "Israeli Flugzeug Flugzeug Mann Katari"
+    "Israeli Verstappen Verstappen ORF ORF Katari";
     margin-top: 50px;
     margin-bottom: 0px;
-
+    gap: 10px;
+    
 }
 
