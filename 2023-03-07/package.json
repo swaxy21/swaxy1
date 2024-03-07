@@ -7,7 +7,7 @@
   "main": "script.js",
   "scripts": {
     "start": "node script.js",
-    "debug": "node --inspect script.js"
+    "test": "node --inspect script.js"
   },
   "keywords": [],
   "author": "",
